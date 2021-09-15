@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React学习</title>
+    <script src="js/react.development.js"></script>
+    <script src="js/react-dom.development.js"></script>
+    <script src="js/babel.min.js"></script>
+    <script src="js/prop-types.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="test"></div>
+    <script type="text/babel">
+        function List(props){
+            return(
+                <ul>
+                    {props.list.map((value, index) => {
+                        return <li key={value + index}>{value}</li>
+                    })}
+                </ul>
+            )
+        }
+
+        class Study extends React.Component{
+            constructor(props) {
+                super(props);
+                this.state = {
+                    isShow: true
+                }
+
+                this.change = this.change.bind(this);
+            }
+            //  简写方法
+            // change = () => {
+            //     this.setState({
+            //         isShow: !this.state.isShow
+            //     })
+            // }
+
+            change(){
+                this.setState({
+                    isShow: !this.state.isShow
+                })
+            }
+
+            render(){
+                return (
+                    <div>
+                        <button onClick={this.change}>{this.state.isShow ? "点击隐藏" : "点击展示" }</button>
+                        {this.state.isShow && <List list={this.props.list} />}
+                    </div>
+                );
+            }
+        }
+
+        class Person extends React.Component{
+            // constructor(props) {
+            //     super(props);
+            // }
+
+            static propTypes = {
+                name: PropTypes.string.isRequired
+            }
+            static defaultProps = {
+                name: "陌生人"
+            }
+
+            render(){
+                let {props} = this;
+                console.log(props)
+                return(
+                    <ul>
+                        <li>{props.name}</li>
+                        <li>{props.age}</li>
+                        <li>{props.sex}</li>
+                    </ul>
+                )
+            }
+        }
+
+
+
+
+
+        let list = ["Vue","React","Jquery","Angular"];
+        let info = {
+            name: "五条悟",
+            age: 25,
+            sex: "男"
+        }
+        ReactDOM.render(
+            <div>
+                <Study list={list} />
+               <Person  {...info} />
+            </div>
+            ,document.getElementById("test"));
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ref</title>
+    <script src="js/react.development.js"></script>
+    <script src="js/react-dom.development.js"></script>
+    <script src="js/babel.min.js"></script>
+</head>
+<body>
+    <div id="demo"></div>
+
+    <script type="text/babel">
+
+        class Input extends React.Component{
+            //  ref回调方式
+            // input1 = (d)=>{
+            //     this.input1 = d;
+            // }
+            // showData = ()=>{
+            //     alert(this.input1.value);
+            // }
+
+            // refAPI容器方式
+            input1 = React.createRef();
+            showData = ()=>{
+                alert(this.input1.current.value);
+            }
+
+            render(){
+                return (
+                    <div>
+                        {/* ref回调方式 */}
+                        {/* <input type="text" ref={this.input1} /> */}
+                        {/* <button onClick={this.showData} >点击展示</button> */}
+                        <input type="text" ref={this.input1} />
+                        <button onClick={this.showData}>点击展示</button>
+                        <input type="password" onBlur={(e) => alert(e.target.value) } placeholder="失去焦点展示" />
+                    </div>
+                );
+            }
+        }
+        ReactDOM.render(<Input/>,document.getElementById("demo"));
+    </script>
+</body>
+</html>
