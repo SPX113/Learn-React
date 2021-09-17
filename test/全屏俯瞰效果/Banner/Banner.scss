@@ -1,0 +1,15 @@
+:root {
+  --scale: 1.5;
+  --y: 0;
+  overflow: hidden;
+  #wrapper {
+    width: 100vw;
+    height: 100vh;
+    #image {
+      width: 100vw;
+      height: 100vh;
+      transform: translateX(var(--x)) translateY(var(--y)) scale(var(--scale));
+      transition: ease-out 0.7s;
+    }
+  }
+}
