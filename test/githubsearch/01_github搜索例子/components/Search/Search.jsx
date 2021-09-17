@@ -1,26 +1,23 @@
 import React from "react";
-import PubSub from "pubsub-js";
+import axios from "axios";
 
 export default class Search extends React.Component{
     node = React.createRef();
 
-    search = async () => {
+    search = () => {
         const keyWord = this.node.current.value;
         if(keyWord === ""){
             alert("关键字不能为空!");
             return;
         }
-
-        // fetch  async/await 混用
-        try{
-            const request = await fetch('/api/search/users2?q=' + keyWord);
-            const data = await request.json();
-            PubSub.publish("setNewList", data.items);
-        }catch (e) {
-            console.log(e);
-        }
-
-
+        axios.get('/api/search/users2?q=' + keyWord).then(
+            result => {
+                this.props.getList(result.data.items);
+            },
+            err => {
+                alert(err)
+            }
+        )
         this.node.current.value = '';
     }
 
