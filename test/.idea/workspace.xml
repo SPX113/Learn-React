@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="667ab04a-cf79-4a8e-adda-6d79e29c320b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/List/List.css" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/List/List.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/List/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/List/List.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/List/childs/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/List/childs/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/Search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubsearch/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/setupTests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1yFWd92yVvyOQ4zW2hBLp8xJ59S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/router/public" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\react学习\test\router\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="667ab04a-cf79-4a8e-adda-6d79e29c320b" name="更改" comment="" />
+      <created>1631847900314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631847900314</updated>
+      <workItem from="1631847901431" duration="3258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
