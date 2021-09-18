@@ -2,26 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="667ab04a-cf79-4a8e-adda-6d79e29c320b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/public/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/List/List.css" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/List/List.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/List/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/List/List.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/List/childs/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/List/childs/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/components/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/components/Search/Search.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/reportWebVitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/setupProxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubsearch/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/githubsearch/02_pubsub-js,fetch方法/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/components/MyLink/MyLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/pages/About/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/pages/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/components/MyLink/MyLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/pages/About/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/Message/Item/Item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/News/News.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/router/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -41,12 +57,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/router/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/router" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="F:\WebStorm 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\react学习\test\router" />
       <recent name="F:\react学习\test\router\public" />
     </key>
   </component>
@@ -58,7 +77,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631847900314</updated>
-      <workItem from="1631847901431" duration="3258000" />
+      <workItem from="1631847901431" duration="8219000" />
+      <workItem from="1631927292071" duration="5463000" />
+      <workItem from="1631932824961" duration="933000" />
     </task>
     <servers />
   </component>
@@ -75,6 +96,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
