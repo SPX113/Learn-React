@@ -11,7 +11,7 @@ export default class Item extends React.Component {
         const {id,title} = this.props.match.params;
         const {content} = DetailData.find(item => {
             return item.id = id;
-        })
+        });
         return (
             <ul>
                 <li>{id}</li>

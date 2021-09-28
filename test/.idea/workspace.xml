@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="667ab04a-cf79-4a8e-adda-6d79e29c320b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/components/MyLink/MyLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/pages/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/01_Link&amp;NavLink&amp;Redirect/pages/Home/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/components/MyLink/MyLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/pages/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/Message/Item/Item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/src/pages/Home/News/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/containers/Count/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/redux/actions/count.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/redux/reducers/count.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/src/redux/store.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redux_test/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/router/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/src/pages/Home/Message/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/router/src/pages/Home/Message/Item/Item.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +76,7 @@
       <workItem from="1631847901431" duration="8219000" />
       <workItem from="1631927292071" duration="5463000" />
       <workItem from="1631932824961" duration="933000" />
+      <workItem from="1632815994333" duration="4671000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-import {Route} from "react-router-dom";
+import {Redirect, Route, Switch} from "react-router-dom";
 
 import MyLink from "../../components/MyLink/MyLink";
 import Message from "./Message/Message";
@@ -20,8 +20,12 @@ export default function Home(){
                             </li>
                         </ul>
                     </div>
-                    <Route  path="/home/news" component={News}/>
-                    <Route  path="/home/message" component={Message}/>
+                    <Switch>
+                        <Route  path="/home/news" component={News}/>
+                        <Route  path="/home/message" component={Message}/>
+                        <Redirect to="/home/news" />
+                    </Switch>
+
                 </div>
             </div>
         </div>
